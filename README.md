@@ -15,11 +15,11 @@ pip install -r requirements.txt
 - Install pgadmin4 , use password as root and open it.
 - after opening it you need to create a database you can do it by simply rightclicking on database , create new DB and name the DB as "as1_db"
 
-![PGADMIN DB CREATE](/images/github-logo.png)
+![PGADMIN DB CREATE](/images/pgadmin_db_create.PNG)
 
 - After this you need to create new schema, right click on schema and create a new schema and name it as "test_sch"
 
-![PGADMIN SCHEMA CREATE](/images/github-logo.png)
+![PGADMIN SCHEMA CREATE](/images/pgadmin_schema_create.PNG)
 
 
 - now schema is created , you need to create a new table, simply copy this script below
@@ -64,7 +64,7 @@ select * from sagar_return_dep_people(('2a'));
 #/* 2a is example here we haven't used the actual user parameters.
 ```
 ##OUTPUT
-![Output of PGADMIN](/images/github-logo.png)
+![Output of PGADMIN](/images/pgadmin_query_run.PNG)
 
 
 #Python Code
@@ -102,7 +102,7 @@ finally:
 
 OUTPUT
 
-![PYTHON CODE OUTPUT](/images/github-logo.png)
+![PYTHON CODE OUTPUT](/images/python_normal_output.PNG)
 
 
 # TASK 2
@@ -168,7 +168,7 @@ if __name__ == '__main__':
 
 - output is as follows
 
-![PYTHON CODE FLASK OUTPUT](/images/github-logo.png)
+![PYTHON CODE FLASK OUTPUT](/images/python_flask_output.PNG)
 
 
 ## Contributing
